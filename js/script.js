@@ -7,7 +7,7 @@ xmlhttp.onreadystatechange = function() {
         document.getElementById("id").innerHTML = jsonPretty;
     }
 };
-xmlhttp.open("GET", "url", true);
+xmlhttp.open("GET", url, true);
 xmlhttp.send();
 }
 
